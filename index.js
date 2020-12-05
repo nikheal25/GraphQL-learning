@@ -13,7 +13,7 @@ const root = {
       id: 123,
       firstName: "Nick",
       lastName: "Lloyd",
-      email: "nick@gmail.com",
+      email: [{ email: "nick@gmail.com" }, { email: "abc@gmail.com" }],
     };
   },
 };
